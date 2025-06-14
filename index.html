@@ -9,6 +9,9 @@
   </head>
   <body>
     <a-scene id="scene">
+         <a-entity id="cameraRig">
+  <a-camera></a-camera>
+</a-entity>
       <a-sky id="sky" src="assets/images/library.jpg" rotation="0 -90 0"></a-sky>
      
      <!--  <a-plane class="hotspot"
@@ -19,6 +22,7 @@
                text="value: Go to Canteen; align: center; color: white">
       </a-plane> -->
         <a-entity cursor="rayOrigin: mouse"></a-entity>
+     
 <!-- <a-entity id="cameraRig"
           position="0 -10 0"
           animation="property: position; to: 0 1.6 0; dur: 2000; easing: easeInOutQuad; loop: false">
